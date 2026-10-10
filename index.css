@@ -1,0 +1,45 @@
+
+ body{
+    margin: 0px;
+ }
+.nav-bar{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: aquamarine;
+    padding: 15px;
+    text-align: center;
+}
+.nav-bar a{
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.nav-bar a:hover{
+    background-color: blueviolet;
+    text-decoration: underline;
+}
+.card{
+    border:2px solid black;
+    width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 10px 5px rgb(0, 0, 0);
+}
+.card img{
+    width: 100% ;
+}
+.card button{
+    width: 70%;
+    padding: 8px;
+    border-radius: 20px;
+}
+.card button:hover{
+    cursor: pointer;
+    
+}
